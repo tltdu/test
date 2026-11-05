@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Đăng Nhập </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="trangchu.html"><img id="logo" src="images/logo.png"> </a>
+        <nav>
+            <a href="trangchu.html">Trang Chủ</a>
+            <a href="gioithietu.html">Giới Thiệu</a>
+            <a href="sanpham.html">Sản Phẩm</a>
+            <a href="tintuc.html">Tin Tức</a>
+            <a href="dangnhap.html">Đăng Nhập</a>
+            <a href="dangky.html">Đăng Ký</a>
+            <a href="lienhe.html">Liên Hệ</a>
+            <div class="search">
+                <input type="text" placeholder="Nhập nội dung cần tìm">
+                <button class="btn-search"><i class="fa fa-search"></i></button>
+                <button class="btn-cart"><i class="fa fa-shopping-cart"></i></button>
+            </div>
+        </nav>
+        <div class="h1"></div>
+        <div class="h2"></div>
+        <div class="h3"></div>
+    </header>
+    <main>
+        <article>
+            <form method="post" enctype="application/x-www-form-urlencoded">
+                <fieldset>
+                    <legend> ĐĂNG NHẬP</legend>
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                <img src="images/dangnhap/userlogin.png" id="imglog">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email"></label><i class="fa fa-envelope icon"></i></td>
+                            <td>
+                                <input type="text" id="email" placeholder="Nhập email">  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="psw"></label><i class="fa fa-key icon"></i></td>
+                            <td>
+                                <input type="text" id="psw" placeholder="Nhập mật khẩu"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Đăng nhập ">
+                                <input type="reset" value="Hủy ">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="lv">
+                                Bạn quên
+                                <a href="#">Mật Khẩu?</a>
+                                <input type="checkbox" name="remember">Ghi nhớ cho lần đăng nhâp sau
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>&copy;2021 Bản quyền thuộc về FreeezeVN.
+            <a href="#" class="link"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="link"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="link"><i class="fa fa-pinterest"></i></a>
+            
+        </p>
+        <a href="#" class="top"></a>
+    </footer>
+</body>
+</html>

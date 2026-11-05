@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Đăng Ký Thành Viên </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="trangchu.html"><img id="logo" src="images/logo.png"> </a>
+        <nav>
+            <a href="trangchu.html">Trang Chủ</a>
+            <a href="gioithietu.html">Giới Thiệu</a>
+            <a href="sanpham.html">Sản Phẩm</a>
+            <a href="tintuc.html">Tin Tức</a>
+            <a href="dangnhap.html">Đăng Nhập</a>
+            <a href="dangky.html">Đăng Ký</a>
+            <a href="lienhe.html">Liên Hệ</a>
+            <div class="search">
+                <input type="text" placeholder="Nhập nội dung cần tìm">
+                <button class="btn-search"><i class="fa fa-search"></i></button>
+                <button class="btn-cart"><i class="fa fa-shopping-cart"></i></button>
+            </div>
+        </nav>
+        <div class="h1"></div>
+        <div class="h2"></div>
+        <div class="h3"></div>
+    </header>
+    <main>
+        <article>
+            <form method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend> ĐĂNG KÝ</legend>
+                    <table>
+                        <tr>
+                            <td><label for="email"></label><i class="fa fa-envelope icon">	</td>
+                            <td>
+                                <input type="text" id="=email" placeholder="Vui lòng nhập email">  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="psw"></label><i class="fa fa-key icon">	</td>
+                            <td>
+                                <input type="text" id="psw" placeholder="Vui lòng nhập mật khẩu"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="psw2"></label><i class="fa fa-key icon">	</td>
+                            <td>
+                                <input type="text" id="psw2" placeholder="Vui lòng nhập mật khẩu"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-gift icon"></td>
+                            <td class="lv">
+                                <input type="radio" name="memberType" value="0">Bạc    
+                                <input type="radio" name="memberType" value="1">Vàng         
+                                <input type="radio" name="memberType" value="2">Bạch Kim      
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-user icon"></i>	</td>
+                            <td><input type="file" accept="image/*"> </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="lv">
+                                Thông qua việc tạo tài khoản, bạn đồng ý với 
+                                <a href="#">Điều khoản & Quyền riêng tư của chúng tôi</a>
+                                .
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Đăng ký ">
+                                <input type="reset" value="Hủy ">
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>&copy;2021 Bản quyền thuộc về FreeezeVN.
+            <a href="#" class="link"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="link"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="link"><i class="fa fa-pinterest"></i></a>
+            
+        </p>
+        <a href="#" class="top"></a>
+    </footer>
+</body>
+</html>
